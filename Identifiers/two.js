@@ -1,0 +1,3 @@
+class default{}
+
+let true={}
