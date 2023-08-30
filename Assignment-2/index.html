@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form >
+        <label >onfocus Example</label>
+        <input id="abc" type="text" onfocus="change_Color()" />
+        <br>
+        <br>
+        <label >onblur Example</label>
+        <input id="xyz" type="text" onblur="change_Case()"/>
+    </form>
+    <script>
+        let change_Color = ()=>{
+            document.getElementById('abc').style.backgroundColor ="green"
+        }
+        let change_Case = ()=>{
+            //alert("GE")
+            let userName = document.getElementById('xyz').value;
+            //alert(userName)
+            document.getElementById('xyz').value = userName.toUpperCase()
+        }
+    </script>
+</body>
+</html>
