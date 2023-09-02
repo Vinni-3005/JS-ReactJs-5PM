@@ -3,4 +3,4 @@
 
 const central_Tax = require('./central')
 
-console.log(central_Tax)
+console.log(central_Tax
